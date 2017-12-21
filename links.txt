@@ -1,0 +1,17 @@
+﻿Voorbeeld  Python grammar parsers:
+
+https://github.com/erezsh/lark
+
+ 
+
+Data modellen (voorbeelden van hoe je provenance data zou kunnen modelleren):
+
+Prov-O: http://www.w3.org/TR/prov-o/
+
+CIDOC-CRM: http://www.cidoc-crm.org/
+
+
+
+Overige links:
+
+https://en.wikipedia.org/wiki/Rich_Text_Format
