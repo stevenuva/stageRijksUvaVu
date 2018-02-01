@@ -1,0 +1,636 @@
+@prefix Auctioned: <http://www.example.org/rijks_prov#Auctioned> .
+@prefix Buyer: <http://www.example.org/rijks_prov#Buyer> .
+@prefix Identifier: <https://www.example.org/rijks_prov#PersistentIdentifier> .
+@prefix Owner: <http://www.example.org/rijks_prov#Owner> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/rijks_prov#Auctioned$2,800> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5032> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#BuyerRijksmuseum,[prov:type:Organization_,_prov:location:?]> .
+
+<http://www.example.org/rijks_prov#Auctioned$20,900> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5270> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#BuyerDr_Simon_Hijman_Levie_(1925-?),[prov:type:Person_,_prov:location:Amsterdam]> .
+
+<http://www.example.org/rijks_prov#Auctioned$27,000> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4696> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#BuyerRijksmuseum,[prov:type:Organization_,_prov:location:?]> .
+
+<http://www.example.org/rijks_prov#Auctioned$5,510> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4709> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#BuyerP._and_D._Colnaghi,[prov:type:Person_,_prov:location:?]> .
+
+<http://www.example.org/rijks_prov#Auctioned$71> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4687> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#Buyeranonymous_sale,[prov:type:?_,_prov:location:?]> .
+
+<http://www.example.org/rijks_prov#Auctioned$850> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5483> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#Buyer£_850_W._Sabin,[prov:type:Person_,_prov:location:?]> .
+
+<http://www.example.org/rijks_prov#AuctionedDM250,000> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.3177> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#BuyerHeilbronner,[prov:type:Person_,_prov:location:Berlin]> .
+
+<http://www.example.org/rijks_prov#AuctionedDM3,500> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4750> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#BuyerProf._Dr_OtLanz_(1865-1935),[prov:type:Person_,_prov:location:Amsterdam]> .
+
+<http://www.example.org/rijks_prov#AuctionedDM5,600> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4565>,
+        <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4566> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#Buyerthe_Rijksmuseum-Stichting,[prov:type:Organization_,_prov:location:?]> .
+
+<http://www.example.org/rijks_prov#AuctionedDM8,000> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4623> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#BuyerProf._Dr_OtLanz_(1865-1935),[prov:type:Person_,_prov:location:Amsterdam]> .
+
+<http://www.example.org/rijks_prov#Auctionedfl.1> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5034>,
+        <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5389> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#BuyerRijksmuseum,[prov:type:Organization_,_prov:location:?]>,
+        <http://www.example.org/rijks_prov#Buyeranonymous_sale,[prov:type:?_,_prov:location:?]> .
+
+<http://www.example.org/rijks_prov#Auctionedfl.1,400> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5109>,
+        <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5272> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#BuyerB._Houthakker,[prov:type:Person_,_prov:location:?]>,
+        <http://www.example.org/rijks_prov#BuyerRijksmuseum,[prov:type:Organization_,_prov:location:?]> .
+
+<http://www.example.org/rijks_prov#Auctionedfl.1,750> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4828> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#BuyerRijksmuseum,[prov:type:Organization_,_prov:location:?]> .
+
+<http://www.example.org/rijks_prov#Auctionedfl.10> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4586> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#BuyerAdolph_Staring_van_de_Wildenborch_(1890-1980),[prov:type:Person_,_prov:location:Deventer]> .
+
+<http://www.example.org/rijks_prov#Auctionedfl.11,000> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5079>,
+        <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5258> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#BuyerJulius_Wilhelm_Edwin_vom_Rath_(1863-1940),[prov:type:Person_,_prov:location:Amsterdam]>,
+        <http://www.example.org/rijks_prov#BuyerRijksmuseum,[prov:type:Organization_,_prov:location:?]> .
+
+<http://www.example.org/rijks_prov#Auctionedfl.110> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5033> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#BuyerRijksmuseum,[prov:type:Organization_,_prov:location:?]> .
+
+<http://www.example.org/rijks_prov#Auctionedfl.130> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4595> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#BuyerAdolph_Staring_van_de_Wildenborch_(1890-1980),[prov:type:Person_,_prov:location:Deventer]> .
+
+<http://www.example.org/rijks_prov#Auctionedfl.15,000> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5465> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#BuyerRijksmuseum,[prov:type:Organization_,_prov:location:?]> .
+
+<http://www.example.org/rijks_prov#Auctionedfl.16> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4597>,
+        <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5448>,
+        <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5523> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#BuyerAdolph_Staring_van_de_Wildenborch_(1890-1980),[prov:type:Person_,_prov:location:Deventer]>,
+        <http://www.example.org/rijks_prov#BuyerJonkheer_Dr_Jan_Pieter_Six_(1824-99),[prov:type:Person_,_prov:location:?]>,
+        <http://www.example.org/rijks_prov#BuyerRijksmuseum,[prov:type:Organization_,_prov:location:?]> .
+
+<http://www.example.org/rijks_prov#Auctionedfl.2,200> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4657> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#BuyerJ.W._Kaiser,[prov:type:Person_,_prov:location:?]> .
+
+<http://www.example.org/rijks_prov#Auctionedfl.200> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5450> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#Buyeranonymous_sale,[prov:type:?_,_prov:location:?]> .
+
+<http://www.example.org/rijks_prov#Auctionedfl.24,000> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5417> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#BuyerRijksmuseum,[prov:type:Organization_,_prov:location:?]> .
+
+<http://www.example.org/rijks_prov#Auctionedfl.25> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4772> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#Buyeranonymous_sale,[prov:type:?_,_prov:location:?]> .
+
+<http://www.example.org/rijks_prov#Auctionedfl.260> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5427>,
+        <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5543> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#BuyerPrins,[prov:type:Person_,_prov:location:?]>,
+        <http://www.example.org/rijks_prov#BuyerRijksmuseum,[prov:type:Organization_,_prov:location:?]> .
+
+<http://www.example.org/rijks_prov#Auctionedfl.300> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4892> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#BuyerRijksmuseum,[prov:type:Organization_,_prov:location:?]> .
+
+<http://www.example.org/rijks_prov#Auctionedfl.306> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5449> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#BuyerRijksmuseum,[prov:type:Organization_,_prov:location:?]> .
+
+<http://www.example.org/rijks_prov#Auctionedfl.31,813> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4756> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#BuyerDavid_Peel,[prov:type:Person_,_prov:location:London]> .
+
+<http://www.example.org/rijks_prov#Auctionedfl.35,000> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5340> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#BuyerN._Beets,[prov:type:Person_,_prov:location:?]> .
+
+<http://www.example.org/rijks_prov#Auctionedfl.38> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4582> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#BuyerAdolph_Staring_van_de_Wildenborch_(1890-1980),[prov:type:Person_,_prov:location:Deventer]> .
+
+<http://www.example.org/rijks_prov#Auctionedfl.410> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5805> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#BuyerAntoon_Derkinderen_(1859-1925),[prov:type:Person_,_prov:location:Amsterdam]> .
+
+<http://www.example.org/rijks_prov#Auctionedfl.44,000> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4707> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#BuyerBeels_(or_Beets)_for_Sir_Henri_W.A._Deterding_(1866-1939),[prov:type:Person_,_prov:location:London]> .
+
+<http://www.example.org/rijks_prov#Auctionedfl.47,000> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4907> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#BuyerSir_Henri_W.A._Deterding_(1866-1939),[prov:type:Person_,_prov:location:London]> .
+
+<http://www.example.org/rijks_prov#Auctionedfl.5,000> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5403> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#BuyerRijksmuseum,[prov:type:Organization_,_prov:location:?]> .
+
+<http://www.example.org/rijks_prov#Auctionedfl.5,500> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5440> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#BuyerRijksmuseum,[prov:type:Organization_,_prov:location:?]> .
+
+<http://www.example.org/rijks_prov#Auctionedfl.55,000> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4780> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#BuyerWilhelm_Martin,[prov:type:Person_,_prov:location:?]> .
+
+<http://www.example.org/rijks_prov#Auctionedfl.6,156> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5046> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#BuyerRijksmuseum,[prov:type:Organization_,_prov:location:?]> .
+
+<http://www.example.org/rijks_prov#Auctionedfl.60> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4581>,
+        <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4836>,
+        <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4849> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#BuyerAdolph_Staring_van_de_Wildenborch_(1890-1980),[prov:type:Person_,_prov:location:Deventer]>,
+        <http://www.example.org/rijks_prov#BuyerJ._Balfoort,[prov:type:Person_,_prov:location:Utrecht]> .
+
+<http://www.example.org/rijks_prov#Auctionedfl.85,000> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4867> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#BuyerSlavenburg,[prov:type:Person_,_prov:location:Oyens_and_Van_Eeghen_NV]> .
+
+<http://www.example.org/rijks_prov#Auctionedfl.88> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4596> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#BuyerAdolph_Staring_van_de_Wildenborch_(1890-1980),[prov:type:Person_,_prov:location:Deventer]> .
+
+<http://www.example.org/rijks_prov#Auctionedfl.88,000> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5226> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#BuyerFritz_Mannheimer_(1890-1939),[prov:type:Person_,_prov:location:20_Hobbemastraat]> .
+
+<http://www.example.org/rijks_prov#Auctionedfl.9,000> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5435> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#BuyerRijksmuseum,[prov:type:Organization_,_prov:location:?]> .
+
+<http://www.example.org/rijks_prov#Auctionedfrs.5,000> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4923> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#BuyerNijstad,[prov:type:Person_,_prov:location:?]> .
+
+<http://www.example.org/rijks_prov#Auctionedfrs.500> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5222> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#Buyeranonymous_sale,[prov:type:?_,_prov:location:?]> .
+
+<http://www.example.org/rijks_prov#Auctionedfrs.7,800> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5224> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#BuyerMarcelle_Bousaci,[prov:type:Person_,_prov:location:?]> .
+
+<http://www.example.org/rijks_prov#Auctionedgns2,200> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5219> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#BuyerRijksmuseum,[prov:type:Organization_,_prov:location:?]> .
+
+<http://www.example.org/rijks_prov#Auctionedsale_price_unknown> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.2>,
+        <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.2805>,
+        <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.2807>,
+        <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.3864>,
+        <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.3865>,
+        <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4468>,
+        <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4553>,
+        <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4599>,
+        <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4600>,
+        <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4656>,
+        <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4659>,
+        <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4716>,
+        <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4732>,
+        <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4735>,
+        <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4784>,
+        <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4786>,
+        <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4897>,
+        <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5227>,
+        <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5239>,
+        <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5241>,
+        <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5242>,
+        <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5243>,
+        <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5446>,
+        <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5501>,
+        <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5518>,
+        <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5562>,
+        <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5572>,
+        <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5578>,
+        <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5627>,
+        <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.9> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#BuyerAntoon_van_Welie_(1866-1956),[prov:type:Person_,_prov:location:The_Hague]>,
+        <http://www.example.org/rijks_prov#BuyerAtkins,[prov:type:Person_,_prov:location:?]>,
+        <http://www.example.org/rijks_prov#BuyerFrederik_Muller_for_Teixeira_de_Mattos,[prov:type:Person_,_prov:location:?]>,
+        <http://www.example.org/rijks_prov#BuyerFrederik_Muller_for_the_dealer_Teixeira_de_Mattos,[prov:type:Person_,_prov:location:?]>,
+        <http://www.example.org/rijks_prov#BuyerH._Terry-Engell,[prov:type:Person_,_prov:location:London]>,
+        <http://www.example.org/rijks_prov#BuyerR._Noortman,[prov:type:Person_,_prov:location:?]>,
+        <http://www.example.org/rijks_prov#BuyerRijksmuseum,[prov:type:Organization_,_prov:location:?]>,
+        <http://www.example.org/rijks_prov#BuyerRosenberg,[prov:type:Person_,_prov:location:?]>,
+        <http://www.example.org/rijks_prov#Buyeranonymous_sale,[prov:type:?_,_prov:location:?]>,
+        <http://www.example.org/rijks_prov#Buyerthe_Gemeentemuseum,[prov:type:Organization_,_prov:location:The_Hague]> .
+
+<http://www.example.org/rijks_prov#Auctioned£1,100> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.2316> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#BuyerColnaghi,[prov:type:Person_,_prov:location:?]> .
+
+<http://www.example.org/rijks_prov#Auctioned£1,700> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5236> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#BuyerDaan_H._Cevat,[prov:type:Person_,_prov:location:St_Peter_Port]> .
+
+<http://www.example.org/rijks_prov#Auctioned£10> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4602> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#BuyerMellaart,[prov:type:Person_,_prov:location:?]> .
+
+<http://www.example.org/rijks_prov#Auctioned£11510s> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5534> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#BuyerFenouil,[prov:type:Person_,_prov:location:?]> .
+
+<http://www.example.org/rijks_prov#Auctioned£220> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5047> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#Buyerthe_Leger_Gallery,[prov:type:Organization_,_prov:location:London]> .
+
+<http://www.example.org/rijks_prov#Auctioned£315> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4673> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#BuyerPartridge,[prov:type:Person_,_prov:location:?]> .
+
+<http://www.example.org/rijks_prov#Auctioned£6,500> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5062> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#BuyerS._Nijstad_Oude_Kunst,[prov:type:Person_,_prov:location:The_Hague]> .
+
+<http://www.example.org/rijks_prov#Auctioned£900> a prov:Activity ;
+    prov:used <https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5025> ;
+    prov:wasAssociatedWith <http://www.example.org/rijks_prov#BuyerRijksmuseum,[prov:type:Organization_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.2> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerR._Noortman,[prov:type:Person_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.2316> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerColnaghi,[prov:type:Person_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.2805> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#Buyeranonymous_sale,[prov:type:?_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.2807> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#Buyeranonymous_sale,[prov:type:?_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.3177> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerHeilbronner,[prov:type:Person_,_prov:location:Berlin]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.3864> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#Buyeranonymous_sale,[prov:type:?_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.3865> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#Buyeranonymous_sale,[prov:type:?_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4468> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#Buyeranonymous_sale,[prov:type:?_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4553> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#Buyeranonymous_sale,[prov:type:?_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4565> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#Buyerthe_Rijksmuseum-Stichting,[prov:type:Organization_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4566> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#Buyerthe_Rijksmuseum-Stichting,[prov:type:Organization_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4581> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerAdolph_Staring_van_de_Wildenborch_(1890-1980),[prov:type:Person_,_prov:location:Deventer]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4582> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerAdolph_Staring_van_de_Wildenborch_(1890-1980),[prov:type:Person_,_prov:location:Deventer]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4586> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerAdolph_Staring_van_de_Wildenborch_(1890-1980),[prov:type:Person_,_prov:location:Deventer]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4595> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerAdolph_Staring_van_de_Wildenborch_(1890-1980),[prov:type:Person_,_prov:location:Deventer]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4596> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerAdolph_Staring_van_de_Wildenborch_(1890-1980),[prov:type:Person_,_prov:location:Deventer]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4597> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerAdolph_Staring_van_de_Wildenborch_(1890-1980),[prov:type:Person_,_prov:location:Deventer]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4599> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#Buyeranonymous_sale,[prov:type:?_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4600> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#Buyeranonymous_sale,[prov:type:?_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4602> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerMellaart,[prov:type:Person_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4623> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerProf._Dr_OtLanz_(1865-1935),[prov:type:Person_,_prov:location:Amsterdam]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4656> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerRosenberg,[prov:type:Person_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4657> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerJ.W._Kaiser,[prov:type:Person_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4659> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#Buyeranonymous_sale,[prov:type:?_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4673> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerPartridge,[prov:type:Person_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4687> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#Buyeranonymous_sale,[prov:type:?_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4696> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerRijksmuseum,[prov:type:Organization_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4707> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerBeels_(or_Beets)_for_Sir_Henri_W.A._Deterding_(1866-1939),[prov:type:Person_,_prov:location:London]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4709> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerP._and_D._Colnaghi,[prov:type:Person_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4716> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerH._Terry-Engell,[prov:type:Person_,_prov:location:London]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4732> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerFrederik_Muller_for_Teixeira_de_Mattos,[prov:type:Person_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4735> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerFrederik_Muller_for_the_dealer_Teixeira_de_Mattos,[prov:type:Person_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4750> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerProf._Dr_OtLanz_(1865-1935),[prov:type:Person_,_prov:location:Amsterdam]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4756> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerDavid_Peel,[prov:type:Person_,_prov:location:London]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4772> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#Buyeranonymous_sale,[prov:type:?_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4780> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerWilhelm_Martin,[prov:type:Person_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4784> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#Buyeranonymous_sale,[prov:type:?_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4786> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#Buyerthe_Gemeentemuseum,[prov:type:Organization_,_prov:location:The_Hague]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4828> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerRijksmuseum,[prov:type:Organization_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4836> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerJ._Balfoort,[prov:type:Person_,_prov:location:Utrecht]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4849> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerJ._Balfoort,[prov:type:Person_,_prov:location:Utrecht]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4867> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerSlavenburg,[prov:type:Person_,_prov:location:Oyens_and_Van_Eeghen_NV]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4892> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerRijksmuseum,[prov:type:Organization_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4897> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerRijksmuseum,[prov:type:Organization_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4907> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerSir_Henri_W.A._Deterding_(1866-1939),[prov:type:Person_,_prov:location:London]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.4923> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerNijstad,[prov:type:Person_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5025> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerRijksmuseum,[prov:type:Organization_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5032> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerRijksmuseum,[prov:type:Organization_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5033> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerRijksmuseum,[prov:type:Organization_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5034> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerRijksmuseum,[prov:type:Organization_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5046> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerRijksmuseum,[prov:type:Organization_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5047> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#Buyerthe_Leger_Gallery,[prov:type:Organization_,_prov:location:London]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5062> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerS._Nijstad_Oude_Kunst,[prov:type:Person_,_prov:location:The_Hague]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5079> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerJulius_Wilhelm_Edwin_vom_Rath_(1863-1940),[prov:type:Person_,_prov:location:Amsterdam]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5109> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerRijksmuseum,[prov:type:Organization_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5219> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerRijksmuseum,[prov:type:Organization_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5222> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#Buyeranonymous_sale,[prov:type:?_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5224> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerMarcelle_Bousaci,[prov:type:Person_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5226> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerFritz_Mannheimer_(1890-1939),[prov:type:Person_,_prov:location:20_Hobbemastraat]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5227> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#Buyeranonymous_sale,[prov:type:?_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5236> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerDaan_H._Cevat,[prov:type:Person_,_prov:location:St_Peter_Port]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5239> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#Buyeranonymous_sale,[prov:type:?_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5241> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#Buyeranonymous_sale,[prov:type:?_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5242> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#Buyeranonymous_sale,[prov:type:?_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5243> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#Buyeranonymous_sale,[prov:type:?_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5258> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerRijksmuseum,[prov:type:Organization_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5270> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerDr_Simon_Hijman_Levie_(1925-?),[prov:type:Person_,_prov:location:Amsterdam]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5272> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerB._Houthakker,[prov:type:Person_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5340> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerN._Beets,[prov:type:Person_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5389> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#Buyeranonymous_sale,[prov:type:?_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5403> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerRijksmuseum,[prov:type:Organization_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5417> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerRijksmuseum,[prov:type:Organization_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5427> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerRijksmuseum,[prov:type:Organization_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5435> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerRijksmuseum,[prov:type:Organization_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5440> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerRijksmuseum,[prov:type:Organization_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5446> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#Buyeranonymous_sale,[prov:type:?_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5448> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerJonkheer_Dr_Jan_Pieter_Six_(1824-99),[prov:type:Person_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5449> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerRijksmuseum,[prov:type:Organization_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5450> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#Buyeranonymous_sale,[prov:type:?_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5465> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerRijksmuseum,[prov:type:Organization_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5483> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#Buyer£_850_W._Sabin,[prov:type:Person_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5501> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#Buyeranonymous_sale,[prov:type:?_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5518> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#Buyeranonymous_sale,[prov:type:?_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5523> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerRijksmuseum,[prov:type:Organization_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5534> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerFenouil,[prov:type:Person_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5543> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerPrins,[prov:type:Person_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5562> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerAtkins,[prov:type:Person_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5572> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#Buyeranonymous_sale,[prov:type:?_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5578> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#Buyeranonymous_sale,[prov:type:?_,_prov:location:?]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5627> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerAntoon_van_Welie_(1866-1956),[prov:type:Person_,_prov:location:The_Hague]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.5805> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#BuyerAntoon_Derkinderen_(1859-1925),[prov:type:Person_,_prov:location:Amsterdam]> .
+
+<https://www.example.org/rijks_prov#PersistentIdentifierRM0001.COLLECT.9> a prov:Entity ;
+    prov:wasAttributedTo <http://www.example.org/rijks_prov#Buyeranonymous_sale,[prov:type:?_,_prov:location:?]> .
+
+<http://www.example.org/rijks_prov#BuyerAntoon_Derkinderen_(1859-1925),[prov:type:Person_,_prov:location:Amsterdam]> a prov:Agent .
+
+<http://www.example.org/rijks_prov#BuyerAntoon_van_Welie_(1866-1956),[prov:type:Person_,_prov:location:The_Hague]> a prov:Agent .
+
+<http://www.example.org/rijks_prov#BuyerAtkins,[prov:type:Person_,_prov:location:?]> a prov:Agent .
+
+<http://www.example.org/rijks_prov#BuyerB._Houthakker,[prov:type:Person_,_prov:location:?]> a prov:Agent .
+
+<http://www.example.org/rijks_prov#BuyerBeels_(or_Beets)_for_Sir_Henri_W.A._Deterding_(1866-1939),[prov:type:Person_,_prov:location:London]> a prov:Agent .
+
+<http://www.example.org/rijks_prov#BuyerColnaghi,[prov:type:Person_,_prov:location:?]> a prov:Agent .
+
+<http://www.example.org/rijks_prov#BuyerDaan_H._Cevat,[prov:type:Person_,_prov:location:St_Peter_Port]> a prov:Agent .
+
+<http://www.example.org/rijks_prov#BuyerDavid_Peel,[prov:type:Person_,_prov:location:London]> a prov:Agent .
+
+<http://www.example.org/rijks_prov#BuyerDr_Simon_Hijman_Levie_(1925-?),[prov:type:Person_,_prov:location:Amsterdam]> a prov:Agent .
+
+<http://www.example.org/rijks_prov#BuyerFenouil,[prov:type:Person_,_prov:location:?]> a prov:Agent .
+
+<http://www.example.org/rijks_prov#BuyerFrederik_Muller_for_Teixeira_de_Mattos,[prov:type:Person_,_prov:location:?]> a prov:Agent .
+
+<http://www.example.org/rijks_prov#BuyerFrederik_Muller_for_the_dealer_Teixeira_de_Mattos,[prov:type:Person_,_prov:location:?]> a prov:Agent .
+
+<http://www.example.org/rijks_prov#BuyerFritz_Mannheimer_(1890-1939),[prov:type:Person_,_prov:location:20_Hobbemastraat]> a prov:Agent .
+
+<http://www.example.org/rijks_prov#BuyerH._Terry-Engell,[prov:type:Person_,_prov:location:London]> a prov:Agent .
+
+<http://www.example.org/rijks_prov#BuyerHeilbronner,[prov:type:Person_,_prov:location:Berlin]> a prov:Agent .
+
+<http://www.example.org/rijks_prov#BuyerJ.W._Kaiser,[prov:type:Person_,_prov:location:?]> a prov:Agent .
+
+<http://www.example.org/rijks_prov#BuyerJonkheer_Dr_Jan_Pieter_Six_(1824-99),[prov:type:Person_,_prov:location:?]> a prov:Agent .
+
+<http://www.example.org/rijks_prov#BuyerJulius_Wilhelm_Edwin_vom_Rath_(1863-1940),[prov:type:Person_,_prov:location:Amsterdam]> a prov:Agent .
+
+<http://www.example.org/rijks_prov#BuyerMarcelle_Bousaci,[prov:type:Person_,_prov:location:?]> a prov:Agent .
+
+<http://www.example.org/rijks_prov#BuyerMellaart,[prov:type:Person_,_prov:location:?]> a prov:Agent .
+
+<http://www.example.org/rijks_prov#BuyerN._Beets,[prov:type:Person_,_prov:location:?]> a prov:Agent .
+
+<http://www.example.org/rijks_prov#BuyerNijstad,[prov:type:Person_,_prov:location:?]> a prov:Agent .
+
+<http://www.example.org/rijks_prov#BuyerP._and_D._Colnaghi,[prov:type:Person_,_prov:location:?]> a prov:Agent .
+
+<http://www.example.org/rijks_prov#BuyerPartridge,[prov:type:Person_,_prov:location:?]> a prov:Agent .
+
+<http://www.example.org/rijks_prov#BuyerPrins,[prov:type:Person_,_prov:location:?]> a prov:Agent .
+
+<http://www.example.org/rijks_prov#BuyerR._Noortman,[prov:type:Person_,_prov:location:?]> a prov:Agent .
+
+<http://www.example.org/rijks_prov#BuyerRosenberg,[prov:type:Person_,_prov:location:?]> a prov:Agent .
+
+<http://www.example.org/rijks_prov#BuyerS._Nijstad_Oude_Kunst,[prov:type:Person_,_prov:location:The_Hague]> a prov:Agent .
+
+<http://www.example.org/rijks_prov#BuyerSir_Henri_W.A._Deterding_(1866-1939),[prov:type:Person_,_prov:location:London]> a prov:Agent .
+
+<http://www.example.org/rijks_prov#BuyerSlavenburg,[prov:type:Person_,_prov:location:Oyens_and_Van_Eeghen_NV]> a prov:Agent .
+
+<http://www.example.org/rijks_prov#BuyerWilhelm_Martin,[prov:type:Person_,_prov:location:?]> a prov:Agent .
+
+<http://www.example.org/rijks_prov#Buyerthe_Gemeentemuseum,[prov:type:Organization_,_prov:location:The_Hague]> a prov:Agent .
+
+<http://www.example.org/rijks_prov#Buyerthe_Leger_Gallery,[prov:type:Organization_,_prov:location:London]> a prov:Agent .
+
+<http://www.example.org/rijks_prov#Buyer£_850_W._Sabin,[prov:type:Person_,_prov:location:?]> a prov:Agent .
+
+<http://www.example.org/rijks_prov#BuyerJ._Balfoort,[prov:type:Person_,_prov:location:Utrecht]> a prov:Agent .
+
+<http://www.example.org/rijks_prov#Buyerthe_Rijksmuseum-Stichting,[prov:type:Organization_,_prov:location:?]> a prov:Agent .
+
+<http://www.example.org/rijks_prov#BuyerProf._Dr_OtLanz_(1865-1935),[prov:type:Person_,_prov:location:Amsterdam]> a prov:Agent .
+
+<http://www.example.org/rijks_prov#BuyerAdolph_Staring_van_de_Wildenborch_(1890-1980),[prov:type:Person_,_prov:location:Deventer]> a prov:Agent .
+
+<http://www.example.org/rijks_prov#Buyeranonymous_sale,[prov:type:?_,_prov:location:?]> a prov:Agent .
+
+<http://www.example.org/rijks_prov#BuyerRijksmuseum,[prov:type:Organization_,_prov:location:?]> a prov:Agent .
+
